@@ -11,7 +11,7 @@ use pocketmine\utils\Listener;
 use pocketmine\Player;
 use Pocketmine\Server;
 
-class Main extends PluginBase Implements Listener {
+class AntiFly extends PluginBase Implements Listener {
 
    public function onEnable() {
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
