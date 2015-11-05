@@ -18,3 +18,5 @@ class Main extends PluginBase Implements Listener {
      $this->getLogger()->info("Enabled");
    }
 
+   public function PlayerMove(PlayerMoveEvent $event){
+       $player = $event->getPlayer();
