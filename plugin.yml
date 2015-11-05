@@ -1,1 +1,8 @@
-IN DEV
+name: AntiFly
+main: Mcrafters\AntiFly
+author: Mcrafters
+authors: ["Team Mcrafters & Taha_the_Hacker & Amiremerad & TutoGamerWalid"]
+website: http://www.pocketmine-forum.esy.es
+load: POSTWORLD
+version: 1.0
+api: 1.13.0
