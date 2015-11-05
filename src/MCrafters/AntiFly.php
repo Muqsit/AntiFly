@@ -16,5 +16,7 @@ use Pocketmine\Server;
 class Main extends PluginBase Implements Listener {
 
    public function onEnable() {
+    $this->getServer()->getPluginManager()->registerEvents($this, $this);
      $this->getLogger()->info("Enabled");
    }
+
